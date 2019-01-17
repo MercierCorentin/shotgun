@@ -1,6 +1,6 @@
 
 function refresh_display(){
-    window.location.href = 'enter_login.php';
+    window.location.href = 'shotgun.php';
 }
 
 $(document).ready(function(){

@@ -3,7 +3,7 @@
     session_start();
 
     // Get useful functions
-    require_once('functions.php');
+    require_once('./resources/functions.php');
 
     // Check if shotgun opened
     if(!check_time()){

@@ -11,3 +11,7 @@ Just edit `config.php`
 | ***id\_shotgun*** |   int(11)    | No   |                    | AI    |
 | login             | varchar(255) | No   |                    |       |
 | created\_at       |  timestamp   | No   | CURRENT\_TIMESTAMP |       |
+
+## License
+- All that is in `./resources/flipclock/*`: Copyright (c) 2013 Objective HTML, LCC shared under MIT LICENSE
+- The rest is under [beerware license](https://en.wikipedia.org/wiki/Beerware) ;) 

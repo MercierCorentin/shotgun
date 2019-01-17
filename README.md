@@ -8,9 +8,6 @@ Just edit `config.php`
 
 |  Name             | Type         | Null | Default Value      |  |
 | :---------------- | :----------: | :--: | :----------------: | :- |
-|                   |              |      |                    |  |
-|                   |              |      |                    |  |
-|                   |              |      |                    |  |
 | ***id\_shotgun*** |   int(11)    | No   |                    |  |
 | login             | varchar(255) | No   |                    |  |
 | created\_at       |  timestamp   | No   | CURRENT\_TIMESTAMP |  |

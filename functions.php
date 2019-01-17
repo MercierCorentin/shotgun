@@ -1,6 +1,6 @@
 <?php
 	// Include config 
-	include_once('config.php');
+	require_once('config.php');
 
 	//Function that connect to MySQL database
 	function sql_connect() {
@@ -106,10 +106,11 @@
 
 	// Check if shotgun is open 
 	function check_time(){
-		$current_time 	= strtotime(date("Y-m-d H:i:s"));
-		$openning_time 	= strtotime($config['openningDate']);
+		global $config;
+		$current_time 	= strtotime(date("Y-m-d\TH:i:s"));
+		$openning_time 	= strtotime(substr($config['openningDate'],0,-1));
 		$opened 		= false;
-		if(intval($current_time) >= intval($openning_time)){
+		if($current_time >= $openning_time){
 			$opened = true;
 		}
 		return $opened;

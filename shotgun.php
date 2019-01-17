@@ -3,8 +3,8 @@
     session_start();
 
     // Get useful functions
-    require_once('./treatments/functions.php');
-
+    require_once('functions.php');
+    
     // Check if shotgun opened
     if(!check_time()){
         header('Location: index.php');

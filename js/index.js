@@ -5,9 +5,7 @@ function refresh_display(){
 
 $(document).ready(function(){
     var msTimeDiff = openningDate.getTime() - currentDate.getTime();
-    if(msTimeDiff <=0){
-        refresh_display();
-    }else{
+    if(msTimeDiff >0){
         var secondTimeDiff = Math.ceil(msTimeDiff/1000);
         var clock = $('.your-clock').FlipClock(secondTimeDiff,{
             clockFace: 'DailyCounter',
@@ -20,5 +18,7 @@ $(document).ready(function(){
             }
             
         });
+    }else{
+        refresh_display();
     }
 });

@@ -5,7 +5,11 @@
         
         // It's the ISO date-time format of the openning date. 
         // Example: for 14 january 2042at 18h30, type "2042-01-14T18:30:00Z"
-        "openningDate" =>  'YYYY-MM-DDTHH:MM:SSZ',
+        "openningDate"    => 'YYYY-MM-DDTHH:MM:SSZ',
+
+        // Close configuration
+        "closeOnDate"     =>  false, // Set it on true if you want a close date 
+        "closingDate"     => 'YYYY-MM-DDTHH:MM:SSZ',
 
         // Database config
         'dbHost'          => 'dbHhost',

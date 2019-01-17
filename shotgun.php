@@ -32,7 +32,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <form action="new_shotgun.php" method="post" id="fuck">
+    <form action="./resources/new_shotgun.php" method="post" id="fuck">
         <!-- display login input with generated name -->
         <br>
         <?php

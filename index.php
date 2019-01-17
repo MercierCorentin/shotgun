@@ -6,10 +6,12 @@
 <head>
         <link rel="stylesheet" href="./css/flipclock.css">
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="./css/index.css">
 </head>
 
 <body>
     <h1>Shotgun in:</h1>
+    <br>
     <div class="your-clock" style="text-align:center;"></div> 
     <p>This page will refresh itself when the shotgun is open. </p>
 </body>

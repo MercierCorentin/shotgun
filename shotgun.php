@@ -4,7 +4,7 @@
 
     // Get useful functions
     require_once('functions.php');
-    
+
     // Check if shotgun opened
     if(!check_time()){
         header('Location: index.php');
@@ -32,7 +32,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <form action="./treatments/insert.php" method="post" id="fuck">
+    <form action="new_shotgun.php" method="post" id="fuck">
         <!-- display login input with generated name -->
         <br>
         <?php

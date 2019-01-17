@@ -8,9 +8,13 @@
         "openningDate" => '2019-01-17T20:22:00Z',
 
         // Database config
-        'dbHost'          => 'hostName',
-        'dbName'          => 'databaseName',
-        'dbUser'          => 'username',
-        'dbPassword'      => 'mySuperSecretPassword'
+        'dbHost'          => 'dbHhost',
+        'dbName'          => 'dbName',
+        'dbUser'          => 'dbUser',
+        'dbPassword'      => 'mySuperSecretPassword',
+
+        // Table config
+        'shotgunTable'   => 'myTable'
+
     ]
 ?>

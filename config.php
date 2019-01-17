@@ -6,9 +6,9 @@
         "openningDate" =>  'YYYY-MM-DDTHH:MM:SSZ',
 
         // Database config
-        'host'          => 'hostName',
-        'database'      => 'databaseName',
-        'user'          => 'username',
-        'password'      => 'mySuperSecretPassword'
+        'dbHost'          => 'hostName',
+        'dbName'          => 'databaseName',
+        'dbUser'          => 'username',
+        'dbPassword'      => 'mySuperSecretPassword'
     ]
 ?>

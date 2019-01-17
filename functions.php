@@ -5,7 +5,7 @@
 	//Function that connect to MySQL database
 	function sql_connect() {
 		try {
-	        $db = new PDO('mysql:host='.DB_HOST.';dbname='.DB_NAME, DB_USER, DB_PASS, array(\PDO::MYSQL_ATTR_INIT_COMMAND =>  'SET NAMES utf8'));
+	        $db = new PDO('mysql:host='.$config['dbHost'].';dbname='.$config['dbName'], $config['dbUser'], $config['dbPassword'], array(\PDO::MYSQL_ATTR_INIT_COMMAND =>  'SET NAMES utf8'));
 			$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	    }
 	    catch(Exception $e) {

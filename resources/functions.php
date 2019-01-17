@@ -111,8 +111,15 @@
 		$current_time 	= strtotime(date("Y-m-d\TH:i:s"));
 		$openning_time 	= strtotime(substr($config['openningDate'],0,-1));
 		$opened 		= false;
-		if($current_time >= $openning_time){
-			$opened = true;
+		if(($current_time >= $openning_time)){
+			if($config['closeOnDate']){
+				$closing_time 	= strtotime(substr($config['closingDate'],0,-1));
+				if($current_time < $closing_time){
+					$opened = true;
+				}
+			}else{
+				$opened = true;
+			}
 		}
 		return $opened;
 	}

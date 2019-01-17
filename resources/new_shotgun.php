@@ -8,7 +8,7 @@
 
 
     if(!check_time()){
-        header('Location: ../index.php');
+        header("Location: ".$_SERVER['HTTP_REFERER']);
         exit();
     }
 

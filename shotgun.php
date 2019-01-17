@@ -3,7 +3,7 @@
     session_start();
 
     // Get useful functions
-    require_once('./treatments/fonctions.php');
+    require_once('./treatments/functions.php');
 
     // Check if shotgun opened
     if(!check_time()){

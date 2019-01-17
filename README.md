@@ -1,5 +1,5 @@
 # Shotgun
-This shotgun is CSRF protected and aims to be easily configured and integrated. 
+This shotgun blocks POST scripts and aims to be easily configured and integrated. 
 
 Don't hesitate to contact me to improve the code or if you need help with the configuration/integration. 
 

@@ -1,7 +1,12 @@
 # Shotgun
+This shotgun is CSRF protected and aims to be easily configured and integrated. 
+
+Don't hesitate to contact me to improve the code or if you need help with the configuration/integration. 
 
 ## Installation and configuration
+
 ### Code
+
 Just edit `config.php`:
 - `openningDate`: ISO date-time format of the openning date: `YYYY-MM-DDTHH:MM:SSZ`. Example: for 14 january 2042 at 18h30, enter "2042-01-14T18:30:00Z"
 - The database configuration is a classic

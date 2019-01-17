@@ -20,6 +20,8 @@ PHP scripts to send emails are comming soon ;)
 
 Just edit `config.php`:
 - `openningDate`: ISO date-time format of the openning date: `YYYY-MM-DDTHH:MM:SSZ`. Example: for 14 january 2042 at 18h30, enter "2042-01-14T18:30:00Z"
+- `closeOnDate` : default false, set it on true when you want the shotgun to have a close date.
+- `closingDate` : Same format as `openningDate`
 - The database configuration is a classic
 - `shotgunTable`: Name of the shotgun table. See the table schema bellow.
 

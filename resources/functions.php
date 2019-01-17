@@ -1,6 +1,6 @@
 <?php
 	// Include config 
-	require_once('../config.php');
+	require_once('config.php');
 
 	//Function that connect to MySQL database
 	function sql_connect() {

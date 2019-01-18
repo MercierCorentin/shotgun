@@ -12,6 +12,7 @@ Then, if his login isn't already in the database, the shotgun ends.
 Before the shotgun, the user can't put his login into database. If he tries, he is redirected to index. 
 
 ### After the shotgun
+The shotgun is closed and all users can just see the index.
 PHP scripts to send emails are comming soon ;)
 
 ## Installation and configuration
@@ -25,11 +26,7 @@ Just edit `config.php`:
 - The database configuration is a classic
 - `shotgunTable`: Name of the shotgun table. See the table schema bellow.
 
-If you change the tree organization, here's a list of relative links to change:
-- `index.php`: line 2 => `config.php`
-- `shotgun.php`: line 6 => `functions.php`
-- `functions.php`: line 3 => `config.php`
-- `new_shotgun.php`: line 8 => `functions.php`
+Then add your html/css. 
 
 ### Database
 
@@ -49,6 +46,4 @@ It has to contain only one table with the name `shotgunTable` defined in `config
 - The rest is under [beerware license](https://en.wikipedia.org/wiki/Beerware) ;)
 
 ## Next features
-Later you'll be able to add a closing date/number for the shotgun.
-
-PHP scripts to send emails are also comming. I'll first protect them with a `.htacess` file. You'll have to deal with your own authentification ;)  
+PHP scripts to send emails are comming. I'll first protect them with a `.htacess` file. You'll have to deal with your own authentification ;)  

@@ -41,7 +41,9 @@ Just edit `config.php`:
 
 #### Specific to University of Technology of Compiègne config
 - `gingerApiKey` : you need this key to get the informations about someone from his student login. To get a key, ask the SIMDE
-- `mailFromHeader`: The From header of a mail but without `From: ` so just follow this syntaxe: `"NameOfOrganisation <blabla@domain.domainExtension>"`
+- `mailFromHeader`: The From header of a mail but without `From: ` so just follow this syntaxe: 
+
+`"NameOfOrganisation <blabla@domain.domainExtension>"`
 - `mailSuccessObject`: The object of the mail for users who succeded the shotgun.
 - `mailSuccessContent`: Content of the mail for users who succeded the shotgun. In HTML
 - `sendFailMail`: set `true` if you want the send an email to inform failure. 

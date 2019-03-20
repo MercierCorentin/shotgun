@@ -1,5 +1,8 @@
 <?php
+
+    // Chose your own timezone
     date_default_timezone_set('Europe/Paris');
+
     $config = [
 
         
@@ -10,7 +13,7 @@
         // Close configuration
         "closeOnDate"           => false, // Set it on true if you want a close date 
         "closingDate"           => 'YYYY-MM-DDTHH:MM:SSZ',
-        "limitNumber"           => 250,
+        "limitNumber"           => 255,
 
         // Database config
         'dbHost'                => 'localhost',
@@ -35,7 +38,7 @@
         
         // Mail sended when Success
         "mailSuccessObject"     => "Cabaret A18 - Votre Résultat",
-        "mailSucessContent"     => "Bonjour <br/>
+        "mailSuccessContent"    => "Bonjour <br/>
                                     Tu as réussi le shotgun de ce super évènement. <br/> 
                                     A plus.",
         // Mail sended when Fail

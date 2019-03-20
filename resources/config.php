@@ -27,7 +27,7 @@
         ###########################################################
         // Specific to University of Technology of Compiègne config
         ###########################################################
-        'gingerApiKey'          => "yE27aq9cV2Xdm79j85eNCEg3TJaEBZ8v",
+        'gingerApiKey'          => "my_key",
 
         ###### Mail Config #####
         ########################

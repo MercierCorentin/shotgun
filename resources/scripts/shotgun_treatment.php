@@ -14,13 +14,12 @@
         }
     );
     foreach($etus as $etu){
-        $nb_etu++;
         try {
             $ginger = file_get_contents("https://assos.utc.fr/ginger/v1/".$etu['login']."?key=".$config['gingerApiKey']);
             $ginger = json_decode($ginger);
             if(!is_null($ginger)){
                 if($ginger->is_cotisant){
-
+                    $nb_etu++;
                     if($nb_etu<$config['limitNumber']){
                         ###########################################################################
                         ###########################################################################

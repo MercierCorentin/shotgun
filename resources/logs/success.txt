@@ -1,0 +1,15 @@
+null
+
+"corentin.mercier@etu.utc.fr"
+"corentin.mercier@etu.utc.fr"
+"corentin.mercier@etu.utc.fr"
+{"login":"comercie","nom":"MERCIER","prenom":"Corentin","mail":"corentin.mercier@etu.utc.fr","type":"etu","is_adulte":true,"is_cotisant":true}
+{"login":"comercie","nom":"MERCIER","prenom":"Corentin","mail":"corentin.mercier@etu.utc.fr","type":"etu","is_adulte":true,"is_cotisant":true}
+lpilber
+{"login":"comercie","nom":"MERCIER","prenom":"Corentin","mail":"corentin.mercier@etu.utc.fr","type":"etu","is_adulte":true,"is_cotisant":true}
+lpilber
+{"login":"comercie","nom":"MERCIER","prenom":"Corentin","mail":"corentin.mercier@etu.utc.fr","type":"etu","is_adulte":true,"is_cotisant":true}
+lpilber
+{"login":"dictusla","nom":"DICTUS","prenom":"Laurine","mail":"laurine.dictus@etu.utc.fr","type":"etu","is_adulte":true,"is_cotisant":true}
+{"login":"dictusla","nom":"DICTUS","prenom":"Laurine","mail":"laurine.dictus@etu.utc.fr","type":"etu","is_adulte":true,"is_cotisant":true}
+{"login":"comercie","nom":"MERCIER","prenom":"Corentin","mail":"corentin.mercier@etu.utc.fr","type":"etu","is_adulte":true,"is_cotisant":true}

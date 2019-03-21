@@ -23,7 +23,7 @@ To treat the result of the shotgun you have two choices:
     Be careful to be the owner of the logs files if the script is launched by you. 
 - Access via `GET` method the php file `shotgun_treatment.php`
     Here the logs file have to be owned by `www-data`
-    **Please put an authentification to access this folder!**
+    **Please put an authentification to protect the `scripts` folder!**
 
 
 ## Installation and configuration

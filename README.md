@@ -9,16 +9,16 @@ The index shows a countdown. When countdown is over (based on server time), the 
 
 Then, if his login is already in the database, the user is informed about it and redirected to the index page. Otherwise he's login is registered. 
 
-Before the shotgun, the user can't access the login-form page. If he tries he is redirected to index. 
+Before the shotgun, the user can't access the login-form page. If he tries he will be redirected to index. 
 
 ### After the shotgun
 #### For users
-The shotgun is closed and all users can just see the index.
+The shotgun is closed and all users can only see the index.
 #### For the person in charge
 To treat the result of the shotgun you have two choices:
 - Launch the script `launch.sh` in the folder `scripts`
-    This is the best choice, put the rights to `700` on `shotgun_treatment.php`.
-    If possible, you can put a `cron` task. 
+    This is the best choice, set the rights to `700` on `shotgun_treatment.php`.
+    If possible, you can create a `cron` task. 
 
     Be careful to be the owner of the logs files if the script is launched by you. 
 - Access via `GET` method the php file `shotgun_treatment.php`
@@ -33,21 +33,20 @@ To treat the result of the shotgun you have two choices:
 Just edit `config.php`:
 #### General config
 - `openningDate`: ISO date-time format of the openning date: `YYYY-MM-DDTHH:MM:SSZ`. Example: for 14 january 2042 at 18h30, enter "2042-01-14T18:30:00Z"
-- `closeOnDate` : default false, set it on true when you want the shotgun to have a close date.
+- `closeOnDate` : Default false, set it on true when you want the shotgun to have a close date-time.
 - `closingDate` : Same format as `openningDate`
-- `limitNumber` : the number of things you have to sell/give/...
+- `limitNumber` : The number of things you have to sell/give/...
 - The database configuration is a classic
 - `shotgunTable`: Name of the shotgun table. See the table schema bellow.
 
 #### Specific to University of Technology of Compiègne config
-- `gingerApiKey` : you need this key to get the informations about someone from his student login. To get a key, ask the SIMDE
-- `mailFromHeader`: The From header of a mail but without `From: ` so just follow this syntaxe: 
+- `gingerApiKey` : You need this key to retrieve the information about someone from his student login. To get a key, ask the SIMDE.
+- `mailFromHeader`: The From header of a mail but without `From: ` so just follow this syntax: 
 `"NameOfOrganisation <blabla@domain.domainExtension>"`
 - `mailSuccessObject`: The object of the mail for users who succeded the shotgun.
-- `mailSuccessContent`: Content of the mail for users who succeded the shotgun. In HTML
-- `sendFailMail`: set `true` if you want the send an email to inform failure. 
-- `mailFailObject` & `mailFailContent`: same as success but for failure email. 
-
+- `mailSuccessContent`: Content of the mail for users who succeded the shotgun, in HTML.
+- `sendFailMail`: Set `true` if you want the send an email to inform about failure. 
+- `mailFailObject` & `mailFailContent`: Same as success but for failure email. 
 
 
 Then add your html/css. 

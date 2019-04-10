@@ -5,11 +5,11 @@ Don't hesitate to contact me to improve the code or if you need help with the co
 
 ## Explanations 
 ### Before and during the shotgun
-The index shows a countdown. When it comes to THE shotgun (based on server time), the page refresh itself and he can enter his login in the field. 
+The index shows a countdown. When countdown is over (based on server time), the webpage refresh itself and the user can entrer his login in the input field. 
 
-Then, if his login isn't already in the database, the shotgun ends.
+Then, if his login is already in the database, the user is informed about it and redirected to the index page. Otherwise he's login is registered. 
 
-Before the shotgun, the user can't put his login into database. If he tries, he is redirected to index. 
+Before the shotgun, the user can't access the login-form page. If he tries he is redirected to index. 
 
 ### After the shotgun
 #### For users

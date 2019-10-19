@@ -7,7 +7,7 @@
 
     if($config['closeOnDate']){
         $closing_time 	= strtotime(substr($config['closingDate'],0,-1));
-        if($current_time < $closing_time){
+        if($current_time >= $closing_time){
             $shotgun_ended = true;
         }
     }
@@ -22,7 +22,7 @@
 <body>
 
 <?php
-    if($shotgun_ended){
+    if(!$shotgun_ended){
         echo('
     <h1>Shotgun in:</h1>
     <br>
